@@ -23,7 +23,7 @@ test
 #### Tests: 
 test
 #### Questions: 
-[You can contact me via email @ ]test
+My email is test
 [Here's my profile on GitHub!](https://github.com/test)
 
     
