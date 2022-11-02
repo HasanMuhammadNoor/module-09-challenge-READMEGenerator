@@ -46,12 +46,12 @@ inquirer.prompt([
     {
         type: "input",
         name: "GitHub",
-        message: "You can contact me here."
+        message: "Enter your username on GitHub here."
     },
     {
         type: "input",
         name: "Email",
-        message: "You can contact me here too."
+        message: "Enter your email here."
     },
 ]).then(response =>{
     const readMeContent = `
