@@ -72,6 +72,7 @@ ${response.Installation}
 #### Usage: 
 ${response.Usage}
 #### License: 
+${response.License}
 ![GitHub license](https://img.shields.io/badge/license-${response.license}-green.svg)
 #### Developer(s): 
 ${response.Contributing}
