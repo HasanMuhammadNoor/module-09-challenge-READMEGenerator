@@ -1,4 +1,3 @@
-
 # Title: module-09-challenge-READMEGenerator
 
 ## Description: This program is a README.md generator.
@@ -26,5 +25,3 @@ To test this program, you must input <pre>npm start</pre> in the terminal.
 You can contact me @ kittenstudious@gmail.com
 <br>
 [Here's my profile on GitHub!](https://github.com/HasanMuhammadNoor)
-
-    
