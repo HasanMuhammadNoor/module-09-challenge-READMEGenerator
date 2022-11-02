@@ -78,4 +78,12 @@ inquirer.prompt([
         [My profile on GitHub](https://github.com/${response.GitHub})
     #### Questions: ${response.Email}
     `
+
+    console.log(readMeContent)
+
+    fs.writeFileSync("README.md",readMeContent,function(err){
+        if(err){
+            throw err;
+        }
+    })
 })
