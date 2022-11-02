@@ -78,7 +78,7 @@ ${response.Contributing}
 #### Tests: 
 ${response.Tests}
 #### Questions: 
-My email is ${response.Email}
+You can contact me @ ${response.Email}
 [Here's my profile on GitHub!](https://github.com/${response.GitHub})
 
     `
