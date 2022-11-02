@@ -66,7 +66,6 @@ inquirer.prompt([
 * [Developer(s)](#Contributing)
 * [Tests](#Tests)
 * [Questions](#GitHub)
-* [Questions](#Email)
     
 #### Installation: 
 ${response.Installation}

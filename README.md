@@ -1,7 +1,7 @@
 
-# Title: test
+# Title: 
 
-## Description: test
+## Description: 
     
 ### Table of Contents: 
 * [Installation](#Installation)
@@ -10,20 +10,19 @@
 * [Developer(s)](#Contributing)
 * [Tests](#Tests)
 * [Questions](#GitHub)
-* [Questions](#Email)
     
 #### Installation: 
-test
+
 #### Usage: 
-test
+
 #### License: 
 ![GitHub license](https://img.shields.io/badge/license-undefined-green.svg)
 #### Developer(s): 
-test
+
 #### Tests: 
-test
+
 #### Questions: 
-My email is test
-[Here's my profile on GitHub!](https://github.com/test)
+My email is 
+[Here's my profile on GitHub!](https://github.com/)
 
     
