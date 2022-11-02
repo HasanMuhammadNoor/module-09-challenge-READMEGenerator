@@ -55,28 +55,28 @@ inquirer.prompt([
     },
 ]).then(response =>{
     const readMeContent = `
-    # Title: ${response.Title}
+# Title: ${response.Title}
 
-    ## Description: ${response.Description}
+## Description: ${response.Description}
     
-    ### Table of Contents: 
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Developer(s)](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#GitHub)
-    * [Questions](#Email)
+### Table of Contents: 
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Developer(s)](#Contributing)
+* [Tests](#Tests)
+* [Questions](#GitHub)
+* [Questions](#Email)
     
-    #### Installation: ${response.Installation}
-    #### Usage: ${response.Usage}
-    #### License: ${response.License}
-        ![GitHub license](https://img.shields.io/badge/license-${response.license}-green.svg)
-    #### Developer(s): ${response.Contributing}
-    #### Tests: ${response.Tests}
-    #### Questions: 
-        [My profile on GitHub](https://github.com/${response.GitHub})
-    #### Questions: ${response.Email}
+#### Installation: ${response.Installation}
+#### Usage: ${response.Usage}
+#### License: ${response.License}
+![GitHub license](https://img.shields.io/badge/license-${response.license}-green.svg)
+#### Developer(s): ${response.Contributing}
+#### Tests: ${response.Tests}
+#### Questions: 
+[My profile on GitHub](https://github.com/${response.GitHub})
+ #### Questions: ${response.Email}
     `
 
     console.log(readMeContent)
