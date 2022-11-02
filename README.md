@@ -12,13 +12,18 @@
 * [Questions](#GitHub)
 * [Questions](#Email)
     
-#### Installation: test
-#### Usage: test
-#### License: MIT
+#### Installation: 
+test
+#### Usage: 
+test
+#### License: 
 ![GitHub license](https://img.shields.io/badge/license-undefined-green.svg)
-#### Developer(s): test
-#### Tests: test
+#### Developer(s): 
+test
+#### Tests: 
+test
 #### Questions: 
-[My profile on GitHub](https://github.com/test)
- #### Questions: test
+[You can contact me via email @ ]test
+[Here's my profile on GitHub!](https://github.com/test)
+
     

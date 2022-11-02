@@ -68,15 +68,20 @@ inquirer.prompt([
 * [Questions](#GitHub)
 * [Questions](#Email)
     
-#### Installation: ${response.Installation}
-#### Usage: ${response.Usage}
-#### License: ${response.License}
+#### Installation: 
+${response.Installation}
+#### Usage: 
+${response.Usage}
+#### License: 
 ![GitHub license](https://img.shields.io/badge/license-${response.license}-green.svg)
-#### Developer(s): ${response.Contributing}
-#### Tests: ${response.Tests}
+#### Developer(s): 
+${response.Contributing}
+#### Tests: 
+${response.Tests}
 #### Questions: 
-[My profile on GitHub](https://github.com/${response.GitHub})
- #### Questions: ${response.Email}
+My email is ${response.Email}
+[Here's my profile on GitHub!](https://github.com/${response.GitHub})
+
     `
 
     console.log(readMeContent)
