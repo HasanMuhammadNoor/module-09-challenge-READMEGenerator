@@ -14,7 +14,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "Table of Contents",
+        name: "TableOfContents",
         message: "Enter the components of the README.md here."
     },
     {
@@ -36,7 +36,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "Contributing",
-        message: "Enter the developers of the program here."
+        message: "Enter the developer(s) of the program here."
     },
     {
         type: "input",
@@ -45,7 +45,37 @@ inquirer.prompt([
     },
     {
         type: "input",
-        name: "Questions",
+        name: "GitHub",
         message: "You can contact me here."
     },
-])
+    {
+        type: "input",
+        name: "Email",
+        message: "You can contact me here too."
+    },
+]).then(response =>{
+    const readMeContent = `
+    # Title: ${response.Title}
+
+    ## Description: ${response.Description}
+    
+    ### Table of Contents: 
+    * [Installation](#Installation)
+    * [Usage](#Usage)
+    * [License](#License)
+    * [Developer(s)](#Contributing)
+    * [Tests](#Tests)
+    * [Questions](#GitHub)
+    * [Questions](#Email)
+    
+    #### Installation: ${response.Installation}
+    #### Usage: ${response.Usage}
+    #### License: ${response.License}
+        ![GitHub license](https://img.shields.io/badge/license-${response.license}-green.svg)
+    #### Developer(s): ${response.Contributing}
+    #### Tests: ${response.Tests}
+    #### Questions: 
+        [My profile on GitHub](https://github.com/${response.GitHub})
+    #### Questions: ${response.Email}
+    `
+})
