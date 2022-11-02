@@ -27,5 +27,5 @@ THEN I am taken to the corresponding section of the README
 </pre>
 
 ## Demonstration
-
+![](Screenshot%202022-11-02%20at%201.47.27%20PM.png)
 Here's a live-demonstration of the program: https://youtu.be/i1rWA88bEq8
